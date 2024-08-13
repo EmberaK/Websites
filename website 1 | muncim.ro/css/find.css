@@ -1,0 +1,19 @@
+.find{
+    padding-bottom: 42px;
+}
+.find--wrapper{
+    display: flex;
+    gap: 100px;
+}
+.find__post--subheading:first-child{
+    margin-bottom: 35px;
+}
+.find__post--heading{
+    margin-bottom: 13px;
+}
+.find__post--subheading:nth-child(2){
+    margin-bottom: 16px;
+}
+.find__post--paragraph{
+    margin-bottom: 52px;
+}

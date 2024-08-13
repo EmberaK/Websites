@@ -1,0 +1,52 @@
+.anket-wrapper{
+    display: flex;
+    gap: 112px;
+}
+.table-item{
+    display: flex;
+    gap: 22px;
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 17px;
+}
+.table-item:not(:last-child){
+    margin-bottom: 16px;
+}
+.anket__block-contact{
+    height: 680px;
+    background: linear-gradient(180deg, #99FF91 0%, #61D1F2 100%);
+    padding: 49px;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+.anket__block-subheading{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+}
+.anket__block-subparagraph{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 100px;
+}
+.anket-diagonal__line:not(:last-child){
+    margin-bottom: 82px;
+}
+.anket-diagonal__line:last-child{
+    margin-bottom: 42px;
+}
+.anket--bottom{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40.5px 20px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-transform: uppercase;
+}

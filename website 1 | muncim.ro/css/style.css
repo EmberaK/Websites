@@ -1,0 +1,91 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./work.css);
+@import url(./anket.css);
+@import url(./spendites.css);
+@import url(./find.css);
+@import url(./servise.css);
+@import url(./information.css);
+@import url(./footer.css);
+
+*{
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgba(202, 202, 202, 1);
+}
+.wrapper{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.wrapper--center{
+    display: flex;
+    justify-content: center;
+}
+.diagonal__line{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+.post--subheading:first-child{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.2px;
+}
+.work__post--subheading:first-child{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.post--heading{
+    font-size: 98px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: 2.799999952316284px;
+    color: black;
+}
+.post--subparagraph{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+
+}
+.post--paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: black;
+}
+.post--link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 8px 22px;
+    text-transform: uppercase;
+}
+.post-green--link{
+    background-color: rgba(153, 255, 145, 1);
+}
+.post-white--link{
+    background-color: #fff;
+}
+.post-yellow--link{
+    background-color: rgba(255, 232, 163, 1);
+}
+.post-purple--link{
+    background-color: rgba(179, 181, 255, 1);
+}
+.block-buttons{
+    display: flex;
+    gap: 16px;
+}
+.line{
+    padding: 62px 0;
+}

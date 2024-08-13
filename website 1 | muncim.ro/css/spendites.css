@@ -1,0 +1,16 @@
+.spendites__wrapper{
+    display: flex;
+
+}
+.spendites__post--subheading{
+    margin-bottom: 27px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31.2px;
+}
+.spendites__post--heading{
+    margin-bottom: 13px;
+}
+.spendites__post--paragraph{
+    margin-bottom: 47px;
+}

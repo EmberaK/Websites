@@ -1,0 +1,21 @@
+.block-work{
+    display: flex;
+    justify-content: space-between;
+}
+.work__post--subheading:first-child{
+    margin-bottom: 27px;
+    margin-top: 32px;
+
+}
+.work__post--heading{
+    margin-bottom: 9px;
+}
+.work__post--subheading:last-child{
+    margin-bottom: 12px;
+}
+.work__post--paragraph{
+    margin-bottom: 42px;
+}
+.work--hero{
+    width: 592px;
+}

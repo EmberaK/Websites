@@ -1,0 +1,33 @@
+.servise{
+    padding-bottom: 47px;
+}
+.servise__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.servise-block{
+    padding: 111px 65px;
+    width: calc(50% - 16px);
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.serivese__post--heading{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: 0.5px;
+    margin-bottom: 11px;
+}
+.serivese__post--subheading{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 12px;
+}
+.serivese__post--paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 50px;
+}

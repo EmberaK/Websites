@@ -1,0 +1,32 @@
+.information{
+    padding: 54px 0;
+}
+.information--wrapper{
+    display: flex;
+    gap: 32px;
+}
+.information--subheading{
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.2px;
+    margin-bottom: 15px;
+}
+.information--heading{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 79.2px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+.information--paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.information--paragraph:not(:last-child){
+    padding-bottom: 14px;
+}
+.information--paragraph:last-child{
+    margin-bottom: 24px;
+}
